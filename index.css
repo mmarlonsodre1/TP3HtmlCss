@@ -1,0 +1,63 @@
+body {
+    background-color: #f7f7f7;
+}
+
+#myBody {
+    width: 95%;
+    margin: 0 auto !important;
+}
+
+#myHead {
+    text-align: center;
+    color: #fff;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration-color: none;
+}
+
+nav {
+    color: black;
+    background-color: #532d24;
+    height: 25% !important;
+}
+
+#titulo {
+    color: #4f2a21;
+    text-align: center;
+    font-size: 5em;
+    font-weight: inherit;
+}
+
+#titulo span {
+    font-weight: 700;
+}
+
+#fotoCafe {
+    border-radius: 10px;
+}
+
+h2 {
+    color: #532d24;
+    font-size: 3em;
+}
+
+#myInformations {
+    display: inline-block;
+}
+
+#myCafe,
+#myKombi {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+#myKombi {
+    text-align: right;
+}
