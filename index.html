@@ -5,45 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="/index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Kombi Coffee</title>
 </head>
 
 <body>
-    <div id="myBody">
-        <div id="myHead">
+    <div id="container">
+        <header>
+            <h1 id="titleKombi">Kombi Coffee</h1>
             <img src="./img/logo_kombi_coffee.png " alt="Logo da Kombi Coffee " title="Logo da Kombi Coffee ">
-            <nav>
-                <ul>
-                    <li><a href="#"> HOME |</a></li>
-                    <li><a href="#"> LOCAL |</a></li>
-                    <li><a href="#"> CARDÁPIO |</a></li>
-                    <li><a href="#"> EVENTOS |</a></li>
-                    <li><a href="#"> CONTATO |</a></li>
-                </ul>
-            </nav>
-        </div>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#"> HOME </a></li>
+                <li><a href="pages/local.html"> LOCAL </a></li>
+                <li><a href="#"> CARDÁPIO </a></li>
+                <li><a href="pages/eventos.html"> EVENTOS </a></li>
+                <li><a href="#"> CONTATO </a></li>
+            </ul>
+        </nav>
 
         <h1 id="titulo">O
             <span>café</span> que chega até você</h1>
 
         <img id="fotoCafe" src="./img/banner.jpg " alt="Banner com uma xícara de café e grãos de cafés atrás da mesma " title="Banner com uma xícara de café e grãos de cafés atrás da mesma " style="width: 100%; ">
         <div id="myInformations">
-            <div id="myCafe">
-                <h2>Escolha o seu café</h2>
-                <p>Hoje em dia, café bom não é só aquele feito no coador de pano que nossas avós faziam, um novo mundo se abre para nós em matéria de tipos de grãos, procedência, tipos de torras em jeitos de preparar a bebida, que é tão popular na mesa dos
-                    brasileiros.
-                </p>
+            <div class="description">
+                <div class="titleDescripton">
+                    <h2>Escolha o seu café</h2>
+                </div>
+                <div class="myDescription">
+                    <div class="imgDescription">
+                        <img src="./img/cafe.png">
+                    </div>
+                    <div class="textDescription">
+                        <p>Hoje em dia, café bom não é só aquele feito no coador de pano que nossas avós faziam, um novo mundo se abre para nós em matéria de tipos de grãos, procedência, tipos de torras em jeitos de preparar a bebida, que é tão popular na
+                            mesa dos brasileiros.
+                        </p>
+                    </div>
+                </div>
+
             </div>
-            <div id="myKombi">
-                <h2>Onde encontrar a loja</h2>
-                <p>O Kombi Coffee é móvel.
-                    <a href="https://www.google.com.br/maps " title="Link do Google Maps ">Veja onde</a> você pode encontrar a loja.</p>
+            <div id="myKombi" class="description">
+                <div class="titleDescripton">
+                    <h2>Onde encontrar a loja</h2>
+                </div>
+                <div class="myDescription">
+                    <div class="imgDescription">
+                        <img src="./img/mapa.png">
+                    </div>
+                    <div class="textDescription">
+                        <p>O Kombi Coffee é móvel.
+                            <a href="https://www.google.com.br/maps " title="Link do Google Maps ">Veja onde</a> você pode encontrar a loja.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <hr>
-        <p>Copyright</p>
+        <div id="rodape">
+            <hr>
+            <p>Copyright</p>
+        </div>
     </div>
+
 </body>
 
 </html>

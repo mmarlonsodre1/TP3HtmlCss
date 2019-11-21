@@ -2,29 +2,42 @@ body {
     background-color: #f7f7f7;
 }
 
-#myBody {
+#container {
     width: 95%;
     margin: 0 auto !important;
 }
 
-#myHead {
+#titleKombi {
+    display: none;
+}
+
+header {
+    padding-top: 2px;
     text-align: center;
-    color: #fff;
+    background-color: #fff;
+}
+
+header img {
+    width: 150px;
 }
 
 li {
     list-style-type: none;
     display: inline-block;
+    margin: 0.7em 2em;
 }
 
 li a {
-    text-decoration-color: none;
+    text-decoration: none;
+    color: #f7f7f7;
+    padding-inline: 50px;
 }
 
 nav {
+    text-align: center;
+    height: 40px;
     color: black;
     background-color: #532d24;
-    height: 25% !important;
 }
 
 #titulo {
@@ -48,16 +61,43 @@ h2 {
 }
 
 #myInformations {
-    display: inline-block;
+    display: block;
 }
 
-#myCafe,
-#myKombi {
+.description {
     width: 40%;
     display: inline-block;
-    text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 #myKombi {
+    padding-left: 10%;
+}
+
+.titleDescripton {
+    margin-bottom: -30px;
+}
+
+.myDescription {
+    display: inline-block;
+}
+
+.imgDescription {
+    float: left;
+}
+
+.textDescription {
+    float: left;
+    width: 60%;
+}
+
+#rodape {
+    background-color: white;
     text-align: right;
+    height: 50px;
+}
+
+#rodape p {
+    padding-right: 2%;
 }
