@@ -60,7 +60,7 @@ h2 {
     font-size: 3em;
 }
 
-#myInformations {
+section {
     display: block;
 }
 
@@ -92,12 +92,26 @@ h2 {
     width: 60%;
 }
 
-#rodape {
+footer {
     background-color: white;
     text-align: right;
     height: 50px;
 }
 
-#rodape p {
+footer p {
     padding-right: 2%;
+}
+
+table {
+    width: 100%;
+}
+
+#sectionNossoCafe {
+    background-color: palevioletred;
+    text-align: center;
+    height: 30px;
+}
+
+#sectionNossoCafe h4 {
+    padding-top: 4px;
 }
